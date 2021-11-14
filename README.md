@@ -1,2 +1,4 @@
 # E_Commerce
-PKL
+Proyek - PKL
+
+Pembuatan aplikasi mobile e-commerce
