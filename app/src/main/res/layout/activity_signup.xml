@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#246EE9"
+    >
+
+    <TableLayout
+        android:layout_width="340dp"
+        android:layout_height="600dp"
+        android:background="@drawable/membulat"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Signup Akun"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Silakan signup untuk melanjutkan ..."
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="NAMA LENGKAP"
+            android:textColor="#FDC500"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_namalengkap"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="EMAIL"
+            android:textColor="#FDC500"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:lines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="USERNAME"
+            android:textColor="#FDC500"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edt_uname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1" />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#FDC500" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:lines="1" />
+
+        <Button
+            android:layout_marginTop="32dp"
+            android:id="@+id/btn_login"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FDC500"
+            android:text="Signup" />
+
+    </TableLayout>
+</LinearLayout>
